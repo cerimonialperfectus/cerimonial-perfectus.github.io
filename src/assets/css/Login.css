@@ -1,0 +1,80 @@
+:root {
+    --cor-principal: #00385e;
+    --cor-segundaria: #0092f7;
+    --cor-terciaria: #0074c4;
+    --cor-cinza: #e6e6e6;
+    --cor-fundo: #ffffff;
+    --cor-fundo-primaria: ##EB9486;
+}
+
+.login-wrapper::before {
+    /* mesmo conteúdo, mas agora só age dentro do login */
+    display: block;
+    content: "";
+    height: 120px;
+  }
+
+.area-login {
+    margin-top: 150px;
+}
+   
+.img-logo {
+max-width: 50%;
+}
+   
+.login input:focus {
+    box-shadow: none;
+}
+
+.plnLogin {
+    background-color: #D9B2A9;
+}
+
+.btn-acessar {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #0074c4;
+    border-color: #0074c4;
+    color: white;
+}
+
+.btn-acessar:hover {
+    background: #00385e;
+    border-color: #00385e;
+    transition: 0.2s ease-in-out;
+}
+
+/*Botão Página de Login*/
+
+#btn-login {
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#btn-login:hover {
+    color: var(--cor-cinza);
+    transition: 0.2s ease-in-out;
+}
+   
+/*Conteúdo Principal*/
+
+.conheca {
+    color: var(--cor-terciaria);
+    font-weight: bold;
+}
+
+/*Newsletter*/
+
+.newsletter {
+    background: var(--cor-segundaria);
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
